@@ -40,7 +40,7 @@ def gene_wise_ber(gene_id):
         ber_results_decimal[mod] = decimal
     return ber_results_fraction, ber_results_decimal
 
-# Calculate BER for all genes
+#Calculate BER for all genes
 ber_fraction_summary = {}
 ber_decimal_summary = {}
 
@@ -57,11 +57,11 @@ ber_decimal_df = pd.DataFrame(ber_decimal_summary).T
 ber_fraction_df.to_csv('/home/ibab/sem_4/final_files/LV_RV/ber_all_genes_frac_LV.csv')
 ber_decimal_df.to_csv('/home/ibab/sem_4/final_files/LV_RV/ber_all_genes_deci_LV.csv')
 
-# Display summary of BER as fractions
+#Display summary of BER as fractions
 print("Bit Error Rate (BER) as Fractions for all genes:\n")
 print(ber_fraction_df.head())
 
-# NEW VISUALIZATION: Histograms per modification
+#Histograms per modification
 plt.figure(figsize=(15, 10))
 bins = 30  # Adjust the number of bins as needed
 
