@@ -6,3 +6,6 @@
    d. discretise_rounded_values.py : Asign value one to the nucleosome where histone PTM is present and 0 where its absent. Input file is bins_for_all_genes.csv where each genes length has been divided into 200 base pair regions(1 nucleosome). Runs one PTM at a time.
    e. concatenate.py : Finally concatenate all the PTM discretised values into one csv file.
    
+2. Bit Error Rate
+   a. ber.py : Calculates the BER between two samples and plots histogram for all genes.
+   
