@@ -8,4 +8,7 @@
    
 2. Bit Error Rate
    a. ber.py : Calculates the BER between two samples and plots histogram for all genes.
-   
+   b. ber_LV.py : Selects those genes that have BER<0.05 between 3 year and 34 year old sample of heart left ventricle
+   c. ber_RV.py : Selects those genes that have BER<0.05 between 3 year and 34 year old sample of heart right ventricle
+   d. ber_3.py : Selects those genes that have BER>0.75 between heart left and right ventricle of 3 year old sample. PTMs are grouped into activating, repressive and neutral.
+   e. ber_34.py : Selects those genes that have BER>0.75 between heart left and right ventricle of 34 year old sample. PTMs are grouped into activating, repressive and neutral.
